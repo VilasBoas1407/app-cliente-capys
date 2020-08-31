@@ -8,7 +8,6 @@ android:
 before_install:
   - yes | sdkmanager "platforms;android-23"
   - yes | sdkmanager "build-tools;23.0.1"
-  - npm install && npm use
   - npm install -g "npm@$(jq -r '.engines.npm' package.json)"
 install:
   - npm ci
