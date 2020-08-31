@@ -129,7 +129,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.ionicframework.clientemaisapp572183"
+        applicationId "com.capys.apptemplate"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
